@@ -1,0 +1,61 @@
+/* Amazon Font */
+
+@font-face {
+    font-family: "AmazonEmber";
+    src: url("fonts/KFPk-9IF4FqAqY-.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AmazonEmber";
+    src: url("fonts/pDxWAF1pBB0dzGB.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AmazonEmber";
+    src: url("fonts/WOnTLzkiaEccV7F.woff2") format("woff2");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* boiler plate */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "AmazonEmber", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* global styles */
+
+body {
+    background-color: #E3E6E6;
+}
+
+.container {
+    max-width: 1366px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+/* header */
+
+header .top {
+    background-color: #131921;
+    height: 60px;
+}
+
+header .top .container {
+    height: 100%;
+}
