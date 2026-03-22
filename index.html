@@ -4,13 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon.com. Spend less, Smile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- header -->
     <header>
+        <!-- top -->
         <div class="top">
-            <div class="container"></div>
+            <div class="container">
+                <!-- logo -->
+                <div class="box">
+                    <a class="logo" href="index.html"></a>
+                </div>
+                <!-- location -->
+                <div class="box">
+                    <a class="location-box" href="index.html">
+                        <div class="location-icon"></div>
+                        <div class="location-content">
+                            <p class="delivery-para">Deliver to</p>
+                            <p class="country-para">Pakistan</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- input -->
+                <div class="input-wrapper">
+                    <select>
+                        <option hidden>All</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <!-- country box -->
+                <div class="box country-box">
+                    <div class="flag"></div>
+                    <span>EN</span>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <!-- sign in -->
+                <div class="box signin-box">
+                    <p>Hello, sign in</p>
+                    <p>Account & Lists</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <!-- return box -->
+                <div class="box return-box">
+                    <p>Returns</p>
+                    <p>& Orders</p>
+                </div>
+                <!-- cart box -->
+                <div class="box cart-box">
+                    <div class="cart-icon"></div>
+                    <p>Cart</p>
+                    <span>0</span>
+                </div>
+            </div>
         </div>
     </header>
 </body>
